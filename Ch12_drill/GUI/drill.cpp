@@ -3,6 +3,7 @@
 #include "Graph.h"
 #include "Simple_window.h"
 
+
 int main() 
 {
 	Point tl {100, 100};
@@ -67,7 +68,7 @@ int main()
 	win.set_label("My window 9");
 	win.wait_for_button();
 
-	t.set_font(Font::zapf_dingbats);
+	t.set_font(Graph_lib::Font::zapf_dingbats);
 	t.set_font_size(30);
 	win.set_label("My window 10");
 	win.wait_for_button();
